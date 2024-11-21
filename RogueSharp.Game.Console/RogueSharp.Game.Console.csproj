@@ -7,4 +7,17 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Win32.SystemEvents" Version="9.0.0" />
+      <PackageReference Include="RLNET" Version="1.0.6" />
+      <PackageReference Include="RogueSharp" Version="4.2.0" />
+      <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="terminal8x8.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
