@@ -1,8 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogueSharp.Game.Console", "RogueSharp.Game.Console\RogueSharp.Game.Console.csproj", "{E9D1F76C-5A72-4054-94D3-63CA990F45DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9D1F76C-5A72-4054-94D3-63CA990F45DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D1F76C-5A72-4054-94D3-63CA990F45DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D1F76C-5A72-4054-94D3-63CA990F45DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D1F76C-5A72-4054-94D3-63CA990F45DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
